@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+.photo-accueil {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: block;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #004999;
+}
+
+.membre {
+  margin: 20px;
+}
+
+.membre img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.album img {
+  width: 200px;
+  border-radius: 10px;
+}
